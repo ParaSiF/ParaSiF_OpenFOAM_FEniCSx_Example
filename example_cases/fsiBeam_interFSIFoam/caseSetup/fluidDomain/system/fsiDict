@@ -55,7 +55,7 @@ fetchFSINameZ           dispZ;
 searchAreaSampler       1.0;
 
 // FixedRelaxation; Aitken; IQN_ILS; Loose;
-cplFSIMethod            Loose;
+cplFSIMethod            Aitken;
 initFSIUndRelxCpl       0.6;
 
 //- Maximum value of the under relaxation number (valid only for IQN-ILS)
